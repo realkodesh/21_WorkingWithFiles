@@ -1,6 +1,6 @@
 package br.com.erudio.configs;
 
-public class TestConfigs {
+public class TestConfigs { //oi
   
 	public static final int SERVER_PORT = 8080;
 	
