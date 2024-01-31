@@ -25,7 +25,7 @@ jobs:
         cache: maven
 
     - name: Build Application JAR
-      working-directory: ./home/runner/work/rest-with-spring-boot-and-java-erudio/rest-with-spring-boot-and-java-erudio
+      working-directory: ./
       run: mvn clean package
 
     - name: Docker Compose Build
