@@ -26,6 +26,7 @@ jobs:
 
     - name: Build Application JAR
       working-directory: ./21_WorkingWithFiles/rest-with-spring-boot-and-java-erudio
+    - pwd
       run: mvn clean package
 
     - name: Docker Compose Build
