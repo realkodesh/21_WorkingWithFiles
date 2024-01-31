@@ -21,7 +21,7 @@ services:
   rest-with-spring-boot-erudio:
     image: realkodesh/rest-with-spring-boot-erudio
     restart: always
-    build: ./rest-with-spring-boot-and-java-erudio
+    build: ./
     working_dir: /rest-with-spring-boot-and-java-erudio
     environment:
       TZ: America/Sao_Paulo
