@@ -25,7 +25,7 @@ jobs:
         cache: maven
 
     - name: Build Application JAR
-  working-directory: 
+  working-directory: ./rest-with-spring-boot-and-java-erudio
   run: |
     - pwd # com isso vc vai saber onde exatamente você está na árvore de diretórios
     - mvn clean package
