@@ -25,8 +25,10 @@ jobs:
         cache: maven
 
     - name: Build Application JAR
-      working-directory: ./home/runner/work/rest-with-spring-boot-and-java-erudio/rest-with-spring-boot-and-java-erudio
-      run: mvn clean package
+  working-directory: 
+  run: |
+    - pwd # com isso vc vai saber onde exatamente você está na árvore de diretórios
+    - mvn clean package
 
     - name: Docker Compose Build
       working-directory: ./21_WorkingWithFiles
